@@ -14,8 +14,16 @@ dnf5 install -y tmux
 
 # Use a COPR Example:
 #
-# dnf5 -y copr enable ublue-os/staging
+dnf5 -y copr enable solopasha/hyprland
 # dnf5 -y install package
+dnf5 -y install hyprland
+dnf5 -y install hyprland-devel
+dnf5 -y install xdg-desktop-portal-hyprland
+dnf5 -y install hyprpolkitagent
+dnf5 -y install wofi
+dnf5 -y install waybar
+
+dnf5 -y copr disable solopasha/hyprland
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
