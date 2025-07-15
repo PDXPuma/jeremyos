@@ -26,6 +26,7 @@ dnf5 -y install wofi
 dnf5 -y install waybar
 dnf5 -y install ghostty
 dnf5 -y install wlogout
+dnf5 -y install swaync
 
 dnf5 -y copr disable solopasha/hyprland
 dnf5 -y copr disable scottames/ghostty
