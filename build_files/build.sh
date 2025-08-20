@@ -16,6 +16,8 @@ dnf5 install -y tmux
 #
 dnf5 -y copr enable solopasha/hyprland
 dnf5 -y copr enable scottames/ghostty
+dnf5 -y copr enable errornointernet/walker
+dnf5 -y copr enable errornointernet/gtk4-layer-shell
 
 # dnf5 -y install package
 dnf5 -y install hyprland
@@ -27,9 +29,13 @@ dnf5 -y install waybar
 dnf5 -y install ghostty
 dnf5 -y install wlogout
 dnf5 -y install swaync
+dnf5 -y install walker
+dnf5 -y install gtk4-layer-shell
 
 dnf5 -y copr disable solopasha/hyprland
 dnf5 -y copr disable scottames/ghostty
+dnf5 -y copr disable errornointernet/walker
+dnf5 -y copr disable errornointernet/gtk4-layer-shell
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
