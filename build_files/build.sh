@@ -18,6 +18,7 @@ dnf5 -y copr enable solopasha/hyprland
 dnf5 -y copr enable scottames/ghostty
 dnf5 -y copr enable errornointernet/walker
 dnf5 -y copr enable errornointernet/packages
+dnf5 -y copr enable markupstart/SwayOSD
 
 # dnf5 -y install package
 dnf5 -y install hyprland
@@ -36,11 +37,14 @@ dnf5 -y install swaybg
 dnf5 -y install hypridle
 dnf5 -y install hyprlock
 dnf5 -y install fcitx5
+dnf5 -y install swayosd
+dnf5 -y install mako
 
 dnf5 -y copr disable solopasha/hyprland
 dnf5 -y copr disable scottames/ghostty
 dnf5 -y copr disable errornointernet/walker
 dnf5 -y copr disable errornointernet/packages
+dnf5 -y copr disable markupstart/SwayOSD
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
