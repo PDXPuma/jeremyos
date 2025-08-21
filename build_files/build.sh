@@ -31,6 +31,8 @@ dnf5 -y install wlogout
 dnf5 -y install swaync
 dnf5 -y install walker
 dnf5 -y install gtk4-layer-shell
+dnf5 -y install alacritty
+dnf5 -y install swaybg
 
 dnf5 -y copr disable solopasha/hyprland
 dnf5 -y copr disable scottames/ghostty
