@@ -41,7 +41,7 @@ dnf5 -y copr disable solopasha/hyprland
 dnf5 -y copr disable scottames/ghostty
 dnf5 -y copr disable errornointernet/walker
 dnf5 -y copr disable errornointernet/packages
-dnf5 -y copr disable markupstart/SeayOSD
+dnf5 -y copr disable markupstart/SwayOSD
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
