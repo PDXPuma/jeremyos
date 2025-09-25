@@ -19,7 +19,7 @@ dnf5 -y copr enable ryanabx/cosmic-epoch
 
 dnf5 -y install cosmic-desktop
 
-dnf copr disable ryanabx/cosmic-epoch
+dnf5 -y copr disable ryanabx/cosmic-epoch
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
